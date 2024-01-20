@@ -36,7 +36,7 @@ function updateLocalStorage(newValue) {
   }
 }
 
-const desiredTokenAmount = prompt('Enter the desired token amount:');
+const desiredTokenAmount = prompt('Enter the desired amount of coach credits:');
 if (desiredTokenAmount !== null) {
   updateLocalStorage(desiredTokenAmount);
 }
